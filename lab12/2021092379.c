@@ -50,7 +50,7 @@ int main(int argc, char* argv[]) {
                 if (Find(root, key)) {
                     fprintf(fout, "key %d found\n", key);
                 } else {
-                    fprintf(fout, "finding error : key %d is not in the tree\n", key);
+                    fprintf(fout, "finding error : key %d is not in the tree!\n", key);
                 }
                 break;
             case 'p':
