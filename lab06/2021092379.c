@@ -18,7 +18,7 @@ int findNode(Tree root, int key);
 void printInorder(Tree root);
 void deleteTree(Tree root);
 
-void main(int argc, char* argv[]) {
+int main(int argc, char* argv[]) {
     fin = fopen(argv[1], "r");
     fout = fopen(argv[2], "w");
     char cv;
@@ -50,7 +50,7 @@ void main(int argc, char* argv[]) {
                     root = deleteNode(root, key);
                     fprintf(fout, "delete %d\n", key);
                 } else {
-                    fprintf(fout, "delete error : %d is not in the tree\n", key);
+                    fprintf(fout, "deletion error: %d is not in the tree\n", key);
                 }
                 break;
             case 'p':
