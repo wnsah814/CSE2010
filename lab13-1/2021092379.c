@@ -196,7 +196,7 @@ void Topsort(Graph* G) {
 
     //check cycle
     if (idx != G -> size) {
-        fprintf(fout, "sorting error : cycle");
+        fprintf(fout, "sorting error : cycle!");
     } else {
         for (i = 0; i < idx; ++i) {
             fprintf(fout, "%d ", G -> node[ans[i]]);
