@@ -25,7 +25,7 @@ int IsEmpty(Stack* S);
 int IsFull(Stack* S);
 
 // Main
-void main(int argc, char *argv[]) {
+int main(int argc, char *argv[]) {
     fin = fopen(argv[1], "r");
     fout = fopen(argv[2], "w");
 
