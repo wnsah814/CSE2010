@@ -1,0 +1,7 @@
+a.out
+*.txt
+*.swp
+Makefile
+2021092379
+test/
+outputs/
