@@ -23,8 +23,8 @@ void deleteTable(HashTable H);
 int colFunc(int sol, int n);
 
 int main(int argc, char* argv[]) {
-    fin = fopen("input.txt", "r");
-    fout = fopen("output.txt", "w");
+    fin = fopen(argv[1], "r");
+    fout = fopen(argv[2], "w");
 
     char solution_str[20];
     int solution, TableSize;
